@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.discount-section, .process-section {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.07);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #34495e;
+    margin: 1rem 0 0.5rem;
+}
+
+.discount-details {
+    padding: 0.5rem 0;
+}
+
+.highlight {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0.5rem 0;
+}
+
+ul, ol {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.how-to-use ol {
+    padding-left: 1rem;
+}
+
+.code-block {
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+    border-left: 4px solid #3498db;
+    background: #f8fbff;
+    border-radius: 4px;
+}
+
+.code {
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    background: #eaf6ff;
+    color: #2176bd;
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+    font-size: 1.05em;
+}
+
+.process-section ol {
+    padding-left: 1.2rem;
+}
+
+.process-section li {
+    margin-bottom: 0.7rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 1rem auto;
+    }
+    
+    section {
+        padding: 1rem;
+    }
+}
